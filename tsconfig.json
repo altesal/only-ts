@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "jsx": "react",
     //"strict": true,
     "noImplicitAny": false,
     "sourceMap": true,
     // "rootDir": "./src",
-    "outDir": "./dist"    
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/**/*"
